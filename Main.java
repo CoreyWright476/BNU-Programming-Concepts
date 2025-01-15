@@ -16,7 +16,7 @@ public class Main {
         calculateInterestInvested();
     }
 
-    static void greeting() {
+    private static void greeting() {
         System.out.println("Please enter your name: ");
 
         String name = sc.nextLine();
@@ -24,7 +24,7 @@ public class Main {
         System.out.println("Nice to meet you, " + name + "!");
     }
 
-    static void calculationOfRectangle(){
+    private static void calculationOfRectangle(){
 
         System.out.println("Enter the length of the rectangle(cm): ");
         int length = sc.nextInt();
@@ -39,7 +39,7 @@ public class Main {
         System.out.println("The area of the rectangle is: " + area + "cm^2");
     }
 
-    static void averageOfTwoNums() {
+    private static void averageOfTwoNums() {
         System.out.println("Let's calculate the average of two numbers!");
         System.out.println("Enter the first number: ");
         int num1 = sc.nextInt();
@@ -52,7 +52,7 @@ public class Main {
         System.out.println("The average of the two numbers is: " + average);
     }
 
-    static void outputOriginalOrderThenReversed() {
+    private static void outputOriginalOrderThenReversed() {
         System.out.println("Let's output two numbers in their original order and then in reversed order!");
         System.out.println("Enter the first number: ");
         int num1 = sc.nextInt();
@@ -64,7 +64,7 @@ public class Main {
         System.out.println("The reversed order is: " + num2 + " " + num1);
     }
 
-    static void estimateDOB() {
+    private static void estimateDOB() {
         System.out.println("Let's estimate your year of birth!");
         System.out.println("Enter your age: ");
         int age = sc.nextInt();
@@ -77,7 +77,7 @@ public class Main {
         System.out.println("Your estimated year of birth is: " + estimatedYearOfBirth);
     }
 
-    static void estimateAgeInDaysUsingDDMMYYYY() {
+    private static void estimateAgeInDaysUsingDDMMYYYY() {
         System.out.println("Let's estimate your age in days using your date of birth!");
         System.out.println("Enter the day of your birth: ");
         int day = sc.nextInt();
@@ -102,7 +102,7 @@ public class Main {
         System.out.println("Your age in days is: " + ageInDays);
     }
 
-    static void convertFeetToMiles() {
+    private static void convertFeetToMiles() {
         System.out.println("Let's convert feet to miles!");
         System.out.println("Enter the number of feet: ");
         int feet = sc.nextInt();
@@ -112,7 +112,7 @@ public class Main {
         System.out.println(feet + " feet is equal to " + miles + " miles.");
     }
 
-    static void calculateInterestInvested() {
+    private static void calculateInterestInvested() {
         System.out.println("Let's calculate the interest on an investment!");
         System.out.println("Enter the deposit amount: ");
         double deposit = sc.nextDouble();
