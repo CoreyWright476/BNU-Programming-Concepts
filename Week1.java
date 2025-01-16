@@ -114,4 +114,5 @@ public class Week1 {
 
         System.out.println("With an interest rate of 1%, the interest on the deposit after one year is: " + deposit * 0.01);
     }
+
 }
