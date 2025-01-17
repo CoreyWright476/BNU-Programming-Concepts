@@ -5,6 +5,7 @@ public class Week1 {
     static Scanner sc = new Scanner(System.in);
 
     public static void greeting() {
+
         System.out.println("Please enter your name: ");
 
         String name = sc.nextLine();
@@ -28,6 +29,7 @@ public class Week1 {
     }
 
     public static void averageOfTwoNums() {
+
         System.out.println("\nLet's calculate the average of two numbers!");
         System.out.println("Enter the first number: ");
         int num1 = sc.nextInt();
@@ -41,6 +43,7 @@ public class Week1 {
     }
 
     public static void outputOriginalOrderThenReversed() {
+
         System.out.println("\nLet's output two numbers in their original order and then in reversed order!");
         System.out.println("Enter the first number: ");
         int num1 = sc.nextInt();
@@ -53,6 +56,7 @@ public class Week1 {
     }
 
     public static void estimateDOB() {
+
         System.out.println("\nLet's estimate your year of birth!");
         System.out.println("Enter your age: ");
         int age = sc.nextInt();
@@ -66,6 +70,7 @@ public class Week1 {
     }
 
     public static void estimateAgeInDaysUsingDDMMYYYY() {
+
         System.out.println("\nLet's estimate your age in days using your date of birth!");
         System.out.println("Enter the day of your birth: ");
         int day = sc.nextInt();
@@ -98,6 +103,7 @@ public class Week1 {
     }
 
     public static void convertFeetToMiles() {
+
         System.out.println("\nLet's convert feet to miles!");
         System.out.println("Enter the number of feet: ");
         int feet = sc.nextInt();
@@ -108,6 +114,7 @@ public class Week1 {
     }
 
     public static void calculateInterestInvested() {
+
         System.out.println("\nLet's calculate the interest on an investment!");
         System.out.println("Enter the deposit amount: ");
         double deposit = sc.nextDouble();
