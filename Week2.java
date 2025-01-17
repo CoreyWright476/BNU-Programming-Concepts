@@ -5,6 +5,7 @@ public class Week2 {
     static Scanner sc = new Scanner(System.in);
 
     public static void gradeConvertedToUniDegree() {
+
         System.out.println("\n Lets convert your grade to a university classification!");
         System.out.println("Enter your grade: ");
 
@@ -21,6 +22,7 @@ public class Week2 {
     }
 
     public static void printOneToNine() {
+
         for (int i = 0; i < 10; i++) {
             System.out.println(i);
         }
@@ -64,6 +66,7 @@ public class Week2 {
     }
 
     public static void printEvenNumbers() {
+
         for (int i = 0; i < 11; i++) {
             if (i % 2 == 0) {
                 System.out.println(i);
