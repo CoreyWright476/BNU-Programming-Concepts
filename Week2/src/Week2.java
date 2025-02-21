@@ -4,7 +4,16 @@ public class Week2 {
 
     static Scanner sc = new Scanner(System.in);
 
-    public static void gradeConvertedToUniDegree() {
+    public void runWeek2() {
+
+        gradeConvertedToUniDegree();
+        printOneToNine();
+        printTimesTable();
+        enterMarkReturnGrade();
+        printEvenNumbers();
+    }
+
+    public void gradeConvertedToUniDegree() {
 
         System.out.println("\n Lets convert your grade to a university classification!");
         System.out.println("Enter your grade: ");
@@ -21,14 +30,14 @@ public class Week2 {
         }
     }
 
-    public static void printOneToNine() {
+    public void printOneToNine() {
 
         for (int i = 0; i < 10; i++) {
             System.out.println(i);
         }
     }
 
-    public static void printTimesTable() {
+    public void printTimesTable() {
 
         char response;
 
@@ -46,7 +55,7 @@ public class Week2 {
         System.out.println("Goodbye!");
     }
 
-    public static void enterMarkReturnGrade() {
+    public void enterMarkReturnGrade() {
 
         System.out.println("Enter your mark(0-100) : ");
         int mark = sc.nextInt();
@@ -65,7 +74,7 @@ public class Week2 {
             System.out.println("Grade: U");
     }
 
-    public static void printEvenNumbers() {
+    public void printEvenNumbers() {
 
         for (int i = 0; i < 11; i++) {
             if (i % 2 == 0) {

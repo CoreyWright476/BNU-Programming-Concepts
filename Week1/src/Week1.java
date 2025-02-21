@@ -4,7 +4,18 @@ public class Week1 {
 
     static Scanner sc = new Scanner(System.in);
 
-    public static void greeting() {
+    public void runWeek1(){
+        greeting();
+        calculationOfRectangle();
+        averageOfTwoNums();
+        outputOriginalOrderThenReversed();
+        estimateDOB();
+        estimateAgeInDaysUsingDDMMYYYY();
+        convertFeetToMiles();
+        calculateInterestInvested();
+    }
+
+    public void greeting() {
 
         System.out.println("Please enter your name: ");
 
@@ -13,7 +24,7 @@ public class Week1 {
         System.out.println("Nice to meet you, " + name + "!");
     }
 
-    public static void calculationOfRectangle(){
+    public void calculationOfRectangle(){
 
         System.out.println("\nEnter the length of the rectangle(cm): ");
         int length = sc.nextInt();
@@ -28,7 +39,7 @@ public class Week1 {
         System.out.println("The area of the rectangle is: " + area + "cm^2");
     }
 
-    public static void averageOfTwoNums() {
+    public void averageOfTwoNums() {
 
         System.out.println("\nLet's calculate the average of two numbers!");
         System.out.println("Enter the first number: ");
@@ -42,7 +53,7 @@ public class Week1 {
         System.out.println("The average of the two numbers is: " + average);
     }
 
-    public static void outputOriginalOrderThenReversed() {
+    public void outputOriginalOrderThenReversed() {
 
         System.out.println("\nLet's output two numbers in their original order and then in reversed order!");
         System.out.println("Enter the first number: ");
@@ -55,7 +66,7 @@ public class Week1 {
         System.out.println("The reversed order is: " + num2 + " " + num1);
     }
 
-    public static void estimateDOB() {
+    public void estimateDOB() {
 
         System.out.println("\nLet's estimate your year of birth!");
         System.out.println("Enter your age: ");
@@ -69,7 +80,7 @@ public class Week1 {
         System.out.println("Your estimated year of birth is: " + estimatedYearOfBirth);
     }
 
-    public static void estimateAgeInDaysUsingDDMMYYYY() {
+    public void estimateAgeInDaysUsingDDMMYYYY() {
 
         System.out.println("\nLet's estimate your age in days using your date of birth!");
         System.out.println("Enter the day of your birth: ");
@@ -102,7 +113,7 @@ public class Week1 {
         }
     }
 
-    public static void convertFeetToMiles() {
+    public void convertFeetToMiles() {
 
         System.out.println("\nLet's convert feet to miles!");
         System.out.println("Enter the number of feet: ");
@@ -113,7 +124,7 @@ public class Week1 {
         System.out.println(feet + " feet is equal to " + miles + " miles.");
     }
 
-    public static void calculateInterestInvested() {
+    public void calculateInterestInvested() {
 
         System.out.println("\nLet's calculate the interest on an investment!");
         System.out.println("Enter the deposit amount: ");
