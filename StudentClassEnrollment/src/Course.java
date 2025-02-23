@@ -17,7 +17,4 @@ public class Course {
         System.out.println("The course name is: " + courseName);
 
     }
-
-
-
 }
